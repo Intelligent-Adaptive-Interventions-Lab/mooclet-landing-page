@@ -16,6 +16,7 @@ export const Gallery = (props) => {
         </div>
         <div className='row'>
         <iframe width="1200" height="700" src="https://www.youtube.com/embed/Q2rvRxtkL2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Link to paper: <a href="tiny.cc/icepdf">tiny.cc/icepdf</a></h4>
         </div>
       </div>
     </div>
