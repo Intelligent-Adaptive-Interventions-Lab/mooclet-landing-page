@@ -1,21 +1,17 @@
 {
   "Header": {
-    "title": "MOOClet",
+    "title": "The MOOClet Framework",
     "paragraph": "Unifying Experimentation, Dynamic Improvement & Personalization in Online Courses"
   },
   "About": {
     "paragraph": "A MOOClet is a digital component – like an explanation in an online course or problem – designed using the MOOClet technology. This technology enables instructors and researchers to engage in a wide range of A/B experimentation, crowdsourcing, real-time data analysis, and personalization.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Enabling Experimentation, Data-Driven Improvement, and Personalization of Motivational Messages",
+      "End-User Tools for Adaptive Experimentation"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Learnersourcing Versions for Iterative Adaptive Experimentation",
+      "Personalized Problem Recommendation"
     ]
   },
   "Gallery": [
@@ -134,16 +130,11 @@
       "img": "img/team/Ilya.jpeg",
       "name": "Ilya Musabirov",
       "job": "Researcher"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Jane Doe",
-      "job": "Designer"
     }
   ],
   "Contact": {
     "address": "40 St George St, Toronto, ON M5S 2E4",
-    "phone": "+1 123 456 1234",
+    "phone": "+1 510 501 7884",
     "email": "usingmooclets@googlegroups.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
@@ -158,17 +149,17 @@
     {
       "icon": "fa fa-bullhorn",
       "title": "Accelerating Improvement of Educational Resources using Data from Experiments",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "This can also open up new opportunities for research on how to improve methods for adaptive experimentation in real-world contexts."
     },
     {
       "icon": "fa fa-group",
       "title": "Data-Driven Personalization",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The famework’s approach to personalization is also flexible because at any point in time, these characterstics, interactions, and algorithms can be easily modified. Therefore, MOOClets can make it easier to apply existing approaches to new settings and then refine them over time."
     },
     {
       "icon": "fa fa-magic",
       "title": "Relationship to Common Specifications, Standards & Infrastructures in Education",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "text": "The key value addition of the MOOClet is that such data could be easily used by multiple different algorithms or methods for experimentation, dynamic improvement, and personalization."
     }
   ]
 }

@@ -5,7 +5,7 @@ export const Services = (props) => {
         <div className='section-title'>
           <h2>Supplementary Reading</h2>
           <p>
-          Supporting materials include four papers:
+          Published works in literature based on MOOClet framework 
 
           </p>
         </div>

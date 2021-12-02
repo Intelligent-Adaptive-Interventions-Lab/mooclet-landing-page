@@ -3,10 +3,12 @@ export const Testimonials = (props) => {
     <div id='testimonials'>
       <div className='container'>
         <div className='section-title text-center'>
-          <h2>What our collaborators say</h2>
+          <h2>Is the Internet Replacing Teachers?</h2>
         </div>
         <div className='row'>
-          {props.data
+          {
+            <iframe width="1200" height="650" src="https://www.youtube.com/embed/gePW63HtV40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          /* {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   <div className='testimonial'>
@@ -21,7 +23,7 @@ export const Testimonials = (props) => {
                   </div>
                 </div>
               ))
-            : 'loading'}
+            : 'loading'} */}
         </div>
       </div>
     </div>
