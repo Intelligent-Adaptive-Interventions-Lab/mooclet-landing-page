@@ -11,15 +11,7 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className='row'>
-          <div className='portfolio-items'>
-            {props.data
-              ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
-                  <Image title={d.title} largeImage={d.largeImage} smallImage={d.smallImage} />
-                </div>
-              ))
-              : 'Loading...'}
-          </div>
+        <iframe width="1200" height="700" src="https://www.youtube.com/embed/Q2rvRxtkL2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
