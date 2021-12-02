@@ -5,9 +5,13 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Video Walkthroughs</h2>
+          <h2>Interactive Demonstration</h2>
           <p>
-            The following are some real-time demonstrations of a Mooclet integrated with various other platforms for A/B testing
+            The following are the links to the demo portal, alongwith a video walkthrough of the demo and the corresponding published work regarding the portal
+          </p>
+          <h4> Click <a href="http://tiny.cc/demomooclet">here</a> to start the interactive demonstration</h4>
+          <p>
+            We recommend you to interact with the demo in conjunction with watching the video below to get a complete understanding of the system.
           </p>
         </div>
         <div className='row'>
