@@ -47,7 +47,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Ted Talk
+                Background
               </a>
             </li>
             <li>
