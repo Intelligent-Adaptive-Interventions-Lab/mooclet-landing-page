@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import { Image } from "./image";
 
 export const Gallery = (props) => {
