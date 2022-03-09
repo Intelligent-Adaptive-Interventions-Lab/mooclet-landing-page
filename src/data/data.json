@@ -117,22 +117,22 @@
   ],
   "Team": [
     {
-      "img": "img/team/thomas.jpeg",
+      "img": "img/team/thomas-fixed.jpg",
       "name": "Thomas W. Price",
       "job": "Assistant Professor in the Computer Science Department at North Carolina State University, director of the HINTS Lab"
     },
     {
-      "img": "img/team/joseph.jpeg",
+      "img": "img/team/joseph-fixed.jpg",
       "name": "Joseph Jay Williams",
       "job": "Assistant Professor in the Computer Science Department at University of Toronto, director of the IAI Lab"
     },
     {
-      "img": "img/team/norman.jpeg",
+      "img": "img/team/norman-fixed.jpg",
       "name": "Norman Bier",
       "job": "Director of the Open Learning Initiative (OLI) and the Executive Director of the Simon Initiative at Carnegie Mellon University"
     },
     {
-      "img": "img/team/stamper.jpeg",
+      "img": "img/team/stamper-fixed.jpg",
       "name": "John Stamper",
       "job": "Associate Professor at the Human-Computer Interaction Institute at Carnegie Mellon University and Technical Director of the Pittsburgh Science of Learning Center DataShop"
     }
