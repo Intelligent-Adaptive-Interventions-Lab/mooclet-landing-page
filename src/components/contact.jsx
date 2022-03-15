@@ -150,7 +150,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 Intelligent Adaptive Interventions Lab, University of Toronto. Design by{' '}
+            &copy; 2022 Intelligent Adaptive Interventions Lab, University of Toronto. Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
