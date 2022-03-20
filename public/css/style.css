@@ -206,7 +206,7 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
-  width: 100%;
+  width: calc(100% + 4vw + 4vh);
   padding: 0;
   background: url(../img/intro-bg.jpeg) center center no-repeat;
   background-color: #e5e5e5;
@@ -218,13 +218,26 @@ a:focus,
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media (min-width: 400px){
+  .introwidth {
+    width: 100%; 
+  }
+}
+
+/* @media (min-width: 375px){
+  .introwidth {
+    width: calc(100% + 4vw + 4vh); 
+  }
+} */
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: calc(100% + 4.4vw + 4.4vh);
+  font-size: calc(100% + 3vw + 3vh);
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
