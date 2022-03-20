@@ -1,7 +1,7 @@
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
+      {/* <div className='container'> */}
         <div className='navbar-header'>
           <button
             type='button'
@@ -45,11 +45,11 @@ export const Navigation = (props) => {
                 Demonstration
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#testimonials' className='page-scroll'>
                 Background
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#team' className='page-scroll'>
                 Team
@@ -62,7 +62,7 @@ export const Navigation = (props) => {
             </li>
           </ul>
         </div>
-      </div>
+      {/* </div> */}
     </nav>
   )
 }
