@@ -122,7 +122,7 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-          <div className='col-md-12'>
+          {/* <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
                 <ul>
@@ -140,17 +140,17 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> 
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2021 Intelligent Adaptive Interventions Lab, University of Toronto. Design by{' '}
+            &copy; 2022 Intelligent Adaptive Interventions Lab, University of Toronto. Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
