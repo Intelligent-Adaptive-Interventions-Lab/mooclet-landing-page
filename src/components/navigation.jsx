@@ -1,13 +1,14 @@
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      {/* <div className='container'> */}
+      <div className='container-fluid'>
         <div className='navbar-header'>
           <button
             type='button'
             className='navbar-toggle collapsed'
             data-toggle='collapse'
             data-target='#bs-example-navbar-collapse-1'
+            aria-expanded="false"
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
@@ -62,7 +63,7 @@ export const Navigation = (props) => {
             </li>
           </ul>
         </div>
-      {/* </div> */}
+      </div>
     </nav>
   )
 }

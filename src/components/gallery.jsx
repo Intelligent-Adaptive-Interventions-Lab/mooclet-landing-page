@@ -4,7 +4,7 @@ import { Image } from "./image";
 export const Gallery = (props) => {
   return (
     <div id='portfolio' className='text-center'>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='section-title'>
           <h2>Interactive Demonstration</h2>
           <p>
@@ -16,8 +16,13 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className='row'>
-        <iframe width="1200" height="700" src="https://www.youtube.com/embed/Q2rvRxtkL2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h4>Link to paper: <a href="https://tiny.cc/icepdf" rel="noreferrer" target="_blank">tiny.cc/icepdf</a></h4>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-10 col-lg-offset-1 padding-zero embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q2rvRxtkL2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-10 col-lg-offset-1 padding-zero">
+            <h4>Link to paper: <a href="https://tiny.cc/icepdf" rel="noreferrer" target="_blank">tiny.cc/icepdf</a></h4>
+          </div>
         </div>
       </div>
     </div>

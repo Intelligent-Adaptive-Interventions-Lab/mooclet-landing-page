@@ -1,7 +1,7 @@
 export const Team = (props) => {
   return (
     <div id='team' className='text-center'>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='col-md-8 col-md-offset-2 section-title'>
           <h2>About the Team</h2>
           <p>

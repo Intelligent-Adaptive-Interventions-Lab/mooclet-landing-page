@@ -35,7 +35,7 @@ export const Contact = (props) => {
   return (
     <div>
       <div id='contact'>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
@@ -148,7 +148,7 @@ export const Contact = (props) => {
         </div>
       </div>
       <div id='footer'>
-        <div className='container text-center'>
+        <div className='container-fluid text-center'>
           <p>
             &copy; 2022 Intelligent Adaptive Interventions Lab, University of Toronto. Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>

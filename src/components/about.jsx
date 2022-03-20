@@ -1,11 +1,13 @@
 export const About = (props) => {
   return (
     <div id="about">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/_PrBCaOE4QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{" "}
+            <div width="560" height="315" class="embed-responsive embed-responsive-16by9">
+              {" "}
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_PrBCaOE4QE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{" "}
+            </div>
             <h4>Link to paper: <a href="tiny.cc/moocletpaper">tiny.cc/moocletpaper</a></h4>
           </div>
           <div className="col-xs-12 col-md-6">

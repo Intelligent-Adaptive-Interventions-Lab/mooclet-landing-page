@@ -1,7 +1,7 @@
 export const Services = (props) => {
   return (
     <div id='services' className='text-center'>
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='section-title'>
           <h2>Supplementary Reading</h2>
           <p>
@@ -12,7 +12,7 @@ export const Services = (props) => {
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
+                <div key={`${d.name}-${i}`} className='col-md-3'>
                   {' '}
                   <i className={d.icon}></i>
                   <div className='service-desc'>
